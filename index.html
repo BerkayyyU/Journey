@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Journey</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <h1 >Journey</h1>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/TallinnHarbor.jpeg" onclick="openModal(1)" alt="Tallinn Harbor">
+                        <h3>Harbor</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/TallinnSunrise.jpeg" onclick="openModal(2)" alt="Sunrise">
+                        <h3>Sunrise</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/Wonderworks.jpeg" onclick="openModal(3)" alt="Wonderworks">
+                        <h3>Wonderworks</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/Broadway.jpeg" onclick="openModal(4)" alt="Broadway">
+                        <h3>Broadway</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/WhiteHouse.jpeg" onclick="openModal(5)" alt="White House">
+                        <h3>White House</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/IHaveSeen.jpeg" onclick="openModal(6)" alt="War">
+                        <h3>I have seen war</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/EmpireState.jpeg" onclick="openModal(7)" alt="New York City">
+                        <h3>Night view</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/LibertyStatue.jpeg" onclick="openModal(8)" alt="Statue of Liberty">
+                        <h3>Statufe of Liberty</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/GrandCentralTerminal.jpeg" onclick="openModal(9)" alt="Grand Central Terminal">
+                        <h3>Grand Central Terminal</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/CentralPark.jpeg" onclick="openModal(10)"  alt="Central Park">
+                        <h3>Central Park</h3>
+                    </a>
+                </div> 
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/TheHighLine.jpeg" onclick="openModal(11)"  alt="The High Line">
+                        <h3>The High Line</h3>
+                    </a>
+                </div>    
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/OldTrain.jpeg" onclick="openModal(12)" alt="Old Train Station">
+                        <h3>Old Train Station</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="./images/Iguana.jpeg" onclick="openModal(13)" alt="Iguana">
+                        <h3>My Little Pony</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+        <a class="prev" onclick="plusSlides(-1)" >&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
