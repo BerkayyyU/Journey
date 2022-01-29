@@ -1,18 +1,43 @@
 [
-  { "img": "assets/images/TallinnHarbor.jpeg", "title": "Harbor" },
-  { "img": "assets/images/TallinnSunrise.jpeg", "title": "Sunrise" },
-  { "img": "assets/images/Wonderworks.jpeg", "title": "Wonderworks" },
-  { "img": "assets/images/Broadway.jpeg", "title": "Broadway" },
-  { "img": "assets/images/WhiteHouse.jpeg", "title": "White House" },
-  { "img": "assets/images/IHaveSeen.jpeg", "title": "I have seen war" },
-  { "img": "assets/images/EmpireState.jpeg", "title": "Night view" },
-  { "img": "assets/images/LibertyStatue.jpeg", "title": "Statue of Liberty" },
+  { "id": "1", "img": "assets/images/TallinnHarbor.jpeg", "title": "Harbor" },
+  { "id": "2", "img": "assets/images/TallinnSunrise.jpeg", "title": "Sunrise" },
   {
+    "id": "3",
+    "img": "assets/images/Wonderworks.jpeg",
+    "title": "Wonderworks"
+  },
+  { "id": "4", "img": "assets/images/Broadway.jpeg", "title": "Broadway" },
+  { "id": "5", "img": "assets/images/WhiteHouse.jpeg", "title": "White House" },
+  {
+    "id": "6",
+    "img": "assets/images/IHaveSeen.jpeg",
+    "title": "I have seen war"
+  },
+  { "id": "7", "img": "assets/images/EmpireState.jpeg", "title": "Night view" },
+  {
+    "id": "8",
+    "img": "assets/images/LibertyStatue.jpeg",
+    "title": "Statue of Liberty"
+  },
+  {
+    "id": "9",
     "img": "assets/images/GrandCentralTerminal.jpeg",
     "title": "Grand Central Terminal"
   },
-  { "img": "assets/images/CentralPark.jpeg", "title": "Central Park" },
-  { "img": "assets/images/TheHighLine.jpeg", "title": "The High Line" },
-  { "img": "assets/images/OldTrain.jpeg", "title": "Old Train Station" },
-  { "img": "assets/images/Iguana.jpeg", "title": "My Little Pony" }
+  {
+    "id": "10",
+    "img": "assets/images/CentralPark.jpeg",
+    "title": "Central Park"
+  },
+  {
+    "id": "11",
+    "img": "assets/images/TheHighLine.jpeg",
+    "title": "The High Line"
+  },
+  {
+    "id": "12",
+    "img": "assets/images/OldTrain.jpeg",
+    "title": "Old Train Station"
+  },
+  { "id": "13", "img": "assets/images/Iguana.jpeg", "title": "My Little Pony" }
 ]

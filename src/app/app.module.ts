@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
 
 import { CardComponent } from './card/card.component';
 import { CardDialogComponent } from './card/card-dialog/card-dialog.component';
@@ -16,6 +17,7 @@ import { CardDialogComponent } from './card/card-dialog/card-dialog.component';
     BrowserAnimationsModule,
     HttpClientModule,
     MatDialogModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -19,6 +19,7 @@ export class AppComponent {
   }
 
   openCardDialog(card: Card) {
+    this._cardService.setSelectedCard(card);
     this._dialog.open(CardDialogComponent);
   }
 }

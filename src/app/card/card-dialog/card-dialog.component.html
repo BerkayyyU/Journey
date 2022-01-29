@@ -1,1 +1,12 @@
-<div class="card-dialog-container"><p>card-dialog works!</p></div>
+<div
+  class="card-dialog-container"
+  *ngIf="selectedCard$ | async as selectedCard"
+>
+  <mat-icon class="arrow-icon" (click)="changeSelectedCard(-1)"
+    >keyboard_arrow_left</mat-icon
+  >
+  <img style="height: 600px; width: 900px" [src]="selectedCard.img" />
+  <mat-icon class="arrow-icon" (click)="changeSelectedCard(1)"
+    >keyboard_arrow_right</mat-icon
+  >
+</div>

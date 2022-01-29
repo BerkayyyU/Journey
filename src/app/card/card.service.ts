@@ -10,8 +10,12 @@ export class CardService {
   private _cards = new BehaviorSubject<Card[]>([]);
   cards$: Observable<Card[]>;
 
+  private _selectedCard = new BehaviorSubject<Card>(new Card({}));
+  selectedCard$: Observable<Card>;
+
   constructor(private http: HttpClient) {
     this.cards$ = this._cards.asObservable();
+    this.selectedCard$ = this._selectedCard.asObservable();
     this.mapJSON();
   }
 
@@ -21,6 +25,14 @@ export class CardService {
 
   private set cards(val: Card[]) {
     this._cards.next(val);
+  }
+
+  get selectedCard() {
+    return this._selectedCard.getValue();
+  }
+
+  private set selectedCard(val: Card) {
+    this._selectedCard.next(val);
   }
 
   private async getJSON() {
@@ -35,6 +47,31 @@ export class CardService {
       });
     } catch (error) {
       console.log(error);
+    }
+  }
+
+  setSelectedCard(card: Card) {
+    this.selectedCard = card;
+  }
+
+  changeSelectedCard(direction: number) {
+    const selectedCard = this.cards.find(
+      (card: Card) =>
+        Number(card.id) === Number(this.selectedCard.id) + direction
+    );
+
+    if (!selectedCard && direction === 1) {
+      this.selectedCard = this.cards[0];
+      return;
+    }
+
+    if (!selectedCard && direction === -1) {
+      this.selectedCard = this.cards[this.cards.length - 1];
+      return;
+    }
+
+    if (selectedCard) {
+      this.selectedCard = selectedCard;
     }
   }
 }
