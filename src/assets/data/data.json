@@ -1,0 +1,18 @@
+[
+  { "img": "assets/images/TallinnHarbor.jpeg", "title": "Harbor" },
+  { "img": "assets/images/TallinnSunrise.jpeg", "title": "Sunrise" },
+  { "img": "assets/images/Wonderworks.jpeg", "title": "Wonderworks" },
+  { "img": "assets/images/Broadway.jpeg", "title": "Broadway" },
+  { "img": "assets/images/WhiteHouse.jpeg", "title": "White House" },
+  { "img": "assets/images/IHaveSeen.jpeg", "title": "I have seen war" },
+  { "img": "assets/images/EmpireState.jpeg", "title": "Night view" },
+  { "img": "assets/images/LibertyStatue.jpeg", "title": "Statue of Liberty" },
+  {
+    "img": "assets/images/GrandCentralTerminal.jpeg",
+    "title": "Grand Central Terminal"
+  },
+  { "img": "assets/images/CentralPark.jpeg", "title": "Central Park" },
+  { "img": "assets/images/TheHighLine.jpeg", "title": "The High Line" },
+  { "img": "assets/images/OldTrain.jpeg", "title": "Old Train Station" },
+  { "img": "assets/images/Iguana.jpeg", "title": "My Little Pony" }
+]
