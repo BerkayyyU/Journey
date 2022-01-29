@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { Observable } from 'rxjs';
+import { Card } from './card/card';
+import { CardDialogComponent } from './card/card-dialog/card-dialog.component';
 import { CardService } from './card/card.service';
 
 @Component({
@@ -9,5 +13,12 @@ import { CardService } from './card/card.service';
 export class AppComponent {
   title = 'journey';
 
-  constructor(private _cardService: CardService) {}
+  cards$: Observable<Card[]>;
+  constructor(private _cardService: CardService, public _dialog: MatDialog) {
+    this.cards$ = this._cardService.cards$;
+  }
+
+  openCardDialog(card: Card) {
+    this._dialog.open(CardDialogComponent);
+  }
 }
