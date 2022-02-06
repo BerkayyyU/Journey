@@ -1,1 +1,12 @@
-<p>cards-container works!</p>
+<section>
+  <div class="container">
+    <div class="header">
+      <div class="row">
+        <h1>Journey</h1>
+      </div>
+    </div>
+    <div class="gallery" *ngIf="cards$ | async as cards">
+      <app-card *ngFor="let card of cards" [card]="card"></app-card>
+    </div>
+  </div>
+</section>

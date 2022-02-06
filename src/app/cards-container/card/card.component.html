@@ -1,1 +1,6 @@
-<p>card works!</p>
+<div class="item">
+  <div class="card" (click)="openCardDialog(card)">
+    <img [src]="card.img" [alt]="card.title" />
+    <h3>{{ card.title }}</h3>
+  </div>
+</div>
