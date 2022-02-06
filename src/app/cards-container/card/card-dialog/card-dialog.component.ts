@@ -17,7 +17,6 @@ export class CardDialogComponent implements OnInit {
   ngOnInit(): void {}
 
   changeSelectedCard(direction: number) {
-    debugger;
     this._cardService.changeSelectedCard(direction);
   }
 }
