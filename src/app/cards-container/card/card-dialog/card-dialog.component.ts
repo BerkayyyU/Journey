@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Card } from '../card';
+import { Card } from '../../../models/card';
 import { Observable } from 'rxjs';
-import { CardService } from '../card.service';
+import { CardService } from '../../../services/card.service';
 @Component({
   selector: 'app-card-dialog',
   templateUrl: './card-dialog.component.html',

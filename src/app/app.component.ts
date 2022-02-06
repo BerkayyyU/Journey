@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Observable } from 'rxjs';
-import { Card } from './card/card';
-import { CardDialogComponent } from './card/card-dialog/card-dialog.component';
-import { CardService } from './card/card.service';
+import { Card } from './models/card';
+import { CardDialogComponent } from './cards-container/card/card-dialog/card-dialog.component';
+import { CardService } from './services/card.service';
 
 @Component({
   selector: 'app-root',

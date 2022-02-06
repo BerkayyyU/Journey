@@ -7,11 +7,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 
-import { CardComponent } from './card/card.component';
-import { CardDialogComponent } from './card/card-dialog/card-dialog.component';
+import { CardComponent } from './cards-container/card/card.component';
+import { CardDialogComponent } from './cards-container/card/card-dialog/card-dialog.component';
+import { CardsContainerComponent } from './cards-container/cards-container.component';
 
 @NgModule({
-  declarations: [AppComponent, CardComponent, CardDialogComponent],
+  declarations: [
+    AppComponent,
+    CardComponent,
+    CardDialogComponent,
+    CardsContainerComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
