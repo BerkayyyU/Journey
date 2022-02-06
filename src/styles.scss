@@ -1,5 +1,4 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
 * {
   margin: 0;
@@ -7,20 +6,17 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-}
-
 body {
   background-color: burlywood;
 }
 
 section {
-  min-height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
   margin: 100px 0;
+}
+
+//override mat-typography
+.mat-typography h3 {
+  margin: 0 !important;
 }
