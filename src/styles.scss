@@ -1,33 +1,21 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
-// html,
-// body {
-//   height: 100%;
-// }
-// body {
-//   margin: 0;
-//   font-family: Roboto, "Helvetica Neue", sans-serif;
-//   background-color: burlywood;
-// }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
+
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
 }
+
 body {
   background-color: burlywood;
 }
+
 section {
   min-height: 100%;
   width: 100%;
