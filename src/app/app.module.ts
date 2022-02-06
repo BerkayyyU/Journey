@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { CardComponent } from './cards-container/card/card.component';
 import { CardDialogComponent } from './cards-container/card/card-dialog/card-dialog.component';
 import { CardsContainerComponent } from './cards-container/cards-container.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CardsContainerComponent } from './cards-container/cards-container.compo
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    LazyLoadImageModule,
     MatDialogModule,
     MatIconModule,
   ],
