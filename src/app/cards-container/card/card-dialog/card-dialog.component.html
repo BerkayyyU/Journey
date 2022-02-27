@@ -7,10 +7,7 @@
       >keyboard_arrow_left</mat-icon
     >
     <div class="card-dialog-img">
-      <img
-        defaultImage="assets/images/placeholder.gif"
-        [lazyLoad]="selectedCard.img"
-      />
+      <img [src]="selectedCard.img" />
     </div>
 
     <mat-icon class="arrow-icon" (click)="changeSelectedCard(1)"

@@ -55,23 +55,18 @@ export class CardService {
   }
 
   changeSelectedCard(direction: number) {
-    const selectedCard = this.cards.find(
-      (card: Card) =>
-        Number(card.id) === Number(this.selectedCard.id) + direction
-    );
+    const index = this.cards.indexOf(this.selectedCard);
 
-    if (!selectedCard && direction === 1) {
+    if (index === 0 && direction === -1) {
       this.selectedCard = this.cards[this.cards.length - 1];
       return;
     }
 
-    if (!selectedCard && direction === -1) {
+    if (index === this.cards.length - 1 && direction === 1) {
       this.selectedCard = this.cards[0];
       return;
     }
 
-    if (selectedCard) {
-      this.selectedCard = selectedCard;
-    }
+    this.selectedCard = this.cards[index + direction];
   }
 }
