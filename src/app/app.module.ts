@@ -6,11 +6,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 import { CardComponent } from './cards-container/card/card.component';
 import { CardDialogComponent } from './cards-container/card/card-dialog/card-dialog.component';
 import { CardsContainerComponent } from './cards-container/cards-container.component';
-import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [

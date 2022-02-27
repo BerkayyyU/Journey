@@ -54,19 +54,20 @@ export class CardService {
     this.selectedCard = card;
   }
 
-  changeSelectedCard(direction: number) {
+  // direction --> 1 (next) or -1 (previous)
+  async changeSelectedCard(direction: number) {
     const index = this.cards.indexOf(this.selectedCard);
 
     if (index === 0 && direction === -1) {
-      this.selectedCard = this.cards[this.cards.length - 1];
+      this.setSelectedCard(this.cards[this.cards.length - 1]);
       return;
     }
 
     if (index === this.cards.length - 1 && direction === 1) {
-      this.selectedCard = this.cards[0];
+      this.setSelectedCard(this.cards[0]);
       return;
     }
 
-    this.selectedCard = this.cards[index + direction];
+    this.setSelectedCard(this.cards[index + direction]);
   }
 }
