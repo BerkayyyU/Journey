@@ -1,5 +1,12 @@
 [
   {
+    "id": "14",
+    "img": "assets/images/iclal.jpeg",
+    "title": "Bebeq",
+    "date": "2022/2/27",
+    "place": "Gültepe"
+  },
+  {
     "id": "1",
     "img": "assets/images/TallinnHarbor.jpeg",
     "title": "Harbor",
