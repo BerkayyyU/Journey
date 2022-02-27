@@ -1,43 +1,93 @@
 [
-  { "id": "1", "img": "assets/images/TallinnHarbor.jpeg", "title": "Harbor" },
-  { "id": "2", "img": "assets/images/TallinnSunrise.jpeg", "title": "Sunrise" },
+  {
+    "id": "1",
+    "img": "assets/images/TallinnHarbor.jpeg",
+    "title": "Harbor",
+    "date": "2018/7/6",
+    "place": "Tallinn / Estonia"
+  },
+  {
+    "id": "2",
+    "img": "assets/images/TallinnSunrise.jpeg",
+    "title": "Sunrise",
+    "date": "2018/7/6",
+    "place": "Tallinn / Estonia"
+  },
   {
     "id": "3",
     "img": "assets/images/Wonderworks.jpeg",
-    "title": "Wonderworks"
+    "title": "Wonderworks",
+    "date": "2018/7/6",
+    "place": "South Carolina / USA"
   },
-  { "id": "4", "img": "assets/images/Broadway.jpeg", "title": "Broadway" },
-  { "id": "5", "img": "assets/images/WhiteHouse.jpeg", "title": "White House" },
+  {
+    "id": "4",
+    "img": "assets/images/Broadway.jpeg",
+    "title": "Broadway",
+    "date": "2018/7/6",
+    "place": "South Carolina / USA"
+  },
+  {
+    "id": "5",
+    "img": "assets/images/WhiteHouse.jpeg",
+    "title": "White House",
+    "date": "2018/7/6",
+    "place": "Washington DC / USA"
+  },
   {
     "id": "6",
     "img": "assets/images/IHaveSeen.jpeg",
-    "title": "I have seen war"
+    "title": "I have seen war",
+    "date": "2018/7/6",
+    "place": "Washington DC / USA"
   },
-  { "id": "7", "img": "assets/images/EmpireState.jpeg", "title": "Night view" },
+  {
+    "id": "7",
+    "img": "assets/images/EmpireState.jpeg",
+    "title": "Night view",
+    "date": "2018/7/6",
+    "place": "New York / USA"
+  },
   {
     "id": "8",
     "img": "assets/images/LibertyStatue.jpeg",
-    "title": "Statue of Liberty"
+    "title": "Statue of Liberty",
+    "date": "2018/7/6",
+    "place": "New York / USA"
   },
   {
     "id": "9",
     "img": "assets/images/GrandCentralTerminal.jpeg",
-    "title": "Grand Central Terminal"
+    "title": "Grand Central Terminal",
+    "date": "2018/7/6",
+    "place": "New York / USA"
   },
   {
     "id": "10",
     "img": "assets/images/CentralPark.jpeg",
-    "title": "Central Park"
+    "title": "Central Park",
+    "date": "2018/7/6",
+    "place": "New York / USA"
   },
   {
     "id": "11",
     "img": "assets/images/TheHighLine.jpeg",
-    "title": "The High Line"
+    "title": "The High Line",
+    "date": "2018/7/6",
+    "place": "New York / USA"
   },
   {
     "id": "12",
     "img": "assets/images/OldTrain.jpeg",
-    "title": "Old Train Station"
+    "title": "Old Train Station",
+    "date": "2018/7/6",
+    "place": "Edirne / Turkey"
   },
-  { "id": "13", "img": "assets/images/Iguana.jpeg", "title": "My Little Pony" }
+  {
+    "id": "13",
+    "img": "assets/images/Iguana.jpeg",
+    "title": "My Little Pony",
+    "date": "2018/7/6",
+    "place": "İstanbul / Turkey"
+  }
 ]

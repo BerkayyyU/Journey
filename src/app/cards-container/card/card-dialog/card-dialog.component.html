@@ -6,13 +6,20 @@
     <mat-icon class="arrow-icon" (click)="changeSelectedCard(-1)"
       >keyboard_arrow_left</mat-icon
     >
-    <img class="card-dialog-img" [src]="selectedCard.img" />
+    <div class="card-dialog-img">
+      <img
+        defaultImage="assets/images/placeholder.gif"
+        [lazyLoad]="selectedCard.img"
+      />
+    </div>
+
     <mat-icon class="arrow-icon" (click)="changeSelectedCard(1)"
       >keyboard_arrow_right</mat-icon
     >
   </div>
 
   <h3>
-    {{ selectedCard.title }}
+    {{ selectedCard.title + " - " + (selectedCard.date | date) }}
   </h3>
+  <h4>{{ selectedCard.place }}</h4>
 </div>

@@ -20,3 +20,8 @@ section {
 .mat-typography h3 {
   margin: 0 !important;
 }
+
+//override mat-dialog
+.mat-dialog-container {
+  padding: 15px 0px !important;
+}
