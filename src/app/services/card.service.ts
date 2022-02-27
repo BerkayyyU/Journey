@@ -61,12 +61,12 @@ export class CardService {
     );
 
     if (!selectedCard && direction === 1) {
-      this.selectedCard = this.cards[0];
+      this.selectedCard = this.cards[this.cards.length - 1];
       return;
     }
 
     if (!selectedCard && direction === -1) {
-      this.selectedCard = this.cards[this.cards.length - 1];
+      this.selectedCard = this.cards[0];
       return;
     }
 

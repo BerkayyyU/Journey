@@ -1,100 +1,254 @@
 [
   {
-    "id": "14",
+    "id": "36",
     "img": "assets/images/iclal.jpeg",
     "title": "Bebeq",
     "date": "2022/2/27",
     "place": "Gültepe"
   },
   {
-    "id": "1",
-    "img": "assets/images/TallinnHarbor.jpeg",
+    "id": "35",
+    "img": "assets/images/istanbul-snow.jpeg",
+    "title": "Winter",
+    "date": "2022/1/29",
+    "place": "İstanbul / Turkey"
+  },
+  {
+    "id": "34",
+    "img": "assets/images/teknopark.jpeg",
+    "title": "Ege Teknopark",
+    "date": "2021/12/28",
+    "place": "İzmir / Turkey"
+  },
+  {
+    "id": "33",
+    "img": "assets/images/farmhouse.jpeg",
+    "title": "Farmhouse",
+    "date": "2021/9/11",
+    "place": "Bolu / Turkey"
+  },
+  {
+    "id": "32",
+    "img": "assets/images/dance-night.jpeg",
+    "title": "Me at The Dance Night",
+    "date": "2020/9/21",
+    "place": "Kırklareli / Turkey"
+  },
+  {
+    "id": "31",
+    "img": "assets/images/ainazi-sunset.jpeg",
+    "title": "Sunset",
+    "date": "2020/6/14",
+    "place": "Ainaži / Latvia"
+  },
+  {
+    "id": "30",
+    "img": "assets/images/tallinn-harbor.jpeg",
     "title": "Harbor",
-    "date": "2018/7/6",
+    "date": "2020/6/14",
     "place": "Tallinn / Estonia"
   },
   {
-    "id": "2",
-    "img": "assets/images/TallinnSunrise.jpeg",
+    "id": "29",
+    "img": "assets/images/tallinn-sunrise.jpeg",
     "title": "Sunrise",
-    "date": "2018/7/6",
+    "date": "2020/6/14",
     "place": "Tallinn / Estonia"
   },
   {
-    "id": "3",
-    "img": "assets/images/Wonderworks.jpeg",
+    "id": "28",
+    "img": "assets/images/alexander-nevsky-cathedral.jpeg",
+    "title": "Alexander Nevsky Cathedral",
+    "date": "2020/6/13",
+    "place": "Tallinn / Estonia"
+  },
+  {
+    "id": "27",
+    "img": "assets/images/tallinn-old-town.jpeg",
+    "title": "Tallinn Old Town",
+    "date": "2020/6/13",
+    "place": "Tallinn / Estonia"
+  },
+  {
+    "id": "26",
+    "img": "assets/images/gertrude-old-church.jpeg",
+    "title": "St. Gertrude Old Church",
+    "date": "2020/5/10",
+    "place": "Riga / Latvia"
+  },
+  {
+    "id": "25",
+    "img": "assets/images/riga-night.jpeg",
+    "title": "Riga at Night",
+    "date": "2020/3/16",
+    "place": "Riga / Latvia"
+  },
+  {
+    "id": "24",
+    "img": "assets/images/art-wall.jpeg",
+    "title": "Art on The Wall",
+    "date": "2019/3/25",
+    "place": "Edirne / Turkey"
+  },
+  {
+    "id": "23",
+    "img": "assets/images/batman-me.jpeg",
+    "title": "Batman Me",
+    "date": "2019/1/8",
+    "place": "Edirne / Turkey"
+  },
+  {
+    "id": "22",
+    "img": "assets/images/empire-state.jpeg",
+    "title": "Empire State Nigh View",
+    "date": "2018/9/5",
+    "place": "New York / USA"
+  },
+  {
+    "id": "21",
+    "img": "assets/images/wells-fargo.jpeg",
+    "title": "Wells Fargo",
+    "date": "2018/9/5",
+    "place": "New York / USA"
+  },
+  {
+    "id": "20",
+    "img": "assets/images/manhattan-night.jpeg",
+    "title": "Manhattan at Night",
+    "date": "2018/9/5",
+    "place": "New York / USA"
+  },
+  {
+    "id": "19",
+    "img": "assets/images/manhattan-city-hall.jpeg",
+    "title": "Manhattan City Hall",
+    "date": "2018/9/5",
+    "place": "New York / USA"
+  },
+  {
+    "id": "18",
+    "img": "assets/images/liberty-bike.jpeg",
+    "title": "Liberty Bike",
+    "date": "2018/9/4",
+    "place": "New York / USA"
+  },
+  {
+    "id": "17",
+    "img": "assets/images/liberty-statue.jpeg",
+    "title": "Statue of Liberty",
+    "date": "2018/9/4",
+    "place": "New York / USA"
+  },
+  {
+    "id": "16",
+    "img": "assets/images/grand-central-terminal.jpeg",
+    "title": "Grand Central Terminal",
+    "date": "2018/9/3",
+    "place": "New York / USA"
+  },
+  {
+    "id": "15",
+    "img": "assets/images/central-park.jpeg",
+    "title": "Central Park",
+    "date": "2018/9/3",
+    "place": "New York / USA"
+  },
+  {
+    "id": "14",
+    "img": "assets/images/brooklyn-bridge.jpeg",
+    "title": "Brooklyn Bridge",
+    "date": "2018/9/2",
+    "place": "New York / USA"
+  },
+  {
+    "id": "13",
+    "img": "assets/images/the-high-line.jpeg",
+    "title": "The High Line",
+    "date": "2018/9/2",
+    "place": "New York / USA"
+  },
+  {
+    "id": "12",
+    "img": "assets/images/astronaut-me.jpeg",
+    "title": "Astronaut Me",
+    "date": "2018/8/27",
+    "place": "South Carolina / USA"
+  },
+  {
+    "id": "11",
+    "img": "assets/images/wonderworks.jpeg",
     "title": "Wonderworks",
-    "date": "2018/7/6",
+    "date": "2018/8/26",
     "place": "South Carolina / USA"
   },
   {
-    "id": "4",
-    "img": "assets/images/Broadway.jpeg",
-    "title": "Broadway",
-    "date": "2018/7/6",
+    "id": "10",
+    "img": "assets/images/broadway-lake.jpeg",
+    "title": "Broadway Lake",
+    "date": "2018/8/17",
     "place": "South Carolina / USA"
   },
   {
-    "id": "5",
-    "img": "assets/images/WhiteHouse.jpeg",
+    "id": "9",
+    "img": "assets/images/white-house.jpeg",
     "title": "White House",
     "date": "2018/7/6",
     "place": "Washington DC / USA"
   },
   {
-    "id": "6",
-    "img": "assets/images/IHaveSeen.jpeg",
-    "title": "I have seen war",
+    "id": "8",
+    "img": "assets/images/jefferson-memorial.jpeg",
+    "title": "Jefferson Memorial",
     "date": "2018/7/6",
     "place": "Washington DC / USA"
   },
   {
     "id": "7",
-    "img": "assets/images/EmpireState.jpeg",
-    "title": "Night view",
+    "img": "assets/images/i-have-seen.jpeg",
+    "title": "I Have Seen War",
     "date": "2018/7/6",
-    "place": "New York / USA"
+    "place": "Washington DC / USA"
   },
   {
-    "id": "8",
-    "img": "assets/images/LibertyStatue.jpeg",
-    "title": "Statue of Liberty",
+    "id": "6",
+    "img": "assets/images/the-thinker.jpeg",
+    "title": "The Thinker Statue",
     "date": "2018/7/6",
-    "place": "New York / USA"
+    "place": "Washington DC / USA"
   },
   {
-    "id": "9",
-    "img": "assets/images/GrandCentralTerminal.jpeg",
-    "title": "Grand Central Terminal",
+    "id": "5",
+    "img": "assets/images/washington-monument.jpeg",
+    "title": "Washington Monument",
     "date": "2018/7/6",
-    "place": "New York / USA"
+    "place": "Washington DC / USA"
   },
   {
-    "id": "10",
-    "img": "assets/images/CentralPark.jpeg",
-    "title": "Central Park",
-    "date": "2018/7/6",
-    "place": "New York / USA"
+    "id": "4",
+    "img": "assets/images/broadway.jpeg",
+    "title": "Broadway at the Beach",
+    "date": "2018/6/4",
+    "place": "South Carolina / USA"
   },
   {
-    "id": "11",
-    "img": "assets/images/TheHighLine.jpeg",
-    "title": "The High Line",
-    "date": "2018/7/6",
-    "place": "New York / USA"
-  },
-  {
-    "id": "12",
-    "img": "assets/images/OldTrain.jpeg",
+    "id": "3",
+    "img": "assets/images/old-train-station.jpeg",
     "title": "Old Train Station",
-    "date": "2018/7/6",
+    "date": "2017/10/22",
     "place": "Edirne / Turkey"
   },
   {
-    "id": "13",
-    "img": "assets/images/Iguana.jpeg",
+    "id": "2",
+    "img": "assets/images/efes.jpeg",
+    "title": "Ephesus Ancient City",
+    "date": "2017/7/8",
+    "place": "İzmir / Turkey"
+  },
+  {
+    "id": "1",
+    "img": "assets/images/iguana.jpeg",
     "title": "My Little Pony",
-    "date": "2018/7/6",
+    "date": "2017/4/13",
     "place": "İstanbul / Turkey"
   }
 ]
